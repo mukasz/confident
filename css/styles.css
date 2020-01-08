@@ -1,0 +1,95 @@
+body {
+    background-image: url(../assets/wood-texture.png);
+
+}
+
+.help-button {
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    padding: 7px;
+    border: 2px double white;
+    border-radius: 25px;
+    font-size: x-large;
+    background-color: #cebd9f; 
+    
+}
+/*do poprawy*/
+.help-section button:hover {
+    background-color: #6d5b3c;
+    cursor: pointer;
+    border: 1px double #aaaaaa;
+}
+
+.application-logo {
+    background-color: #e2d3bc;
+    font-weight: bold;
+    border: 3px double #664736;
+    color: #664736;
+    font-size: xx-large;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.logo-container {
+    margin-top: 25px;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-section {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 2%px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.confident-input {
+    background-color: #e2d3bc;
+    border: 3px double #664736;
+    color: #664736;
+    font-size: large;
+    margin: 5px;
+    width: 70%;
+}
+
+.confident-accept-button {
+    background-color: #559b4e;
+    border: 3px double #264b0e;
+    color: #24140c;
+    font-size: x-large;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.confident-decline-button {
+    background-color: #864b4b;
+    border: 3px double #5e1311;
+    color: #24140c;
+    font-size: x-large;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.confident-button {
+    background-color: #e2d3bc;
+    border: 3px double #664736;
+    color: #664736;
+    font-size: x-large;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+}

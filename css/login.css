@@ -1,0 +1,17 @@
+#login-form {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-buttons {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#wrong-pass {
+    color: #e94686;
+}
+

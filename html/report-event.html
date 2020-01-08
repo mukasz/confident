@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Confident 1.0</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="../js/script.js"></script>
+</head>
+
+<body>
+  <div class="report-container">
+        <div class=header-section>
+            <div class="help-section">
+                <div id="point-couter">12</div>
+                <div class="help-button">?</div>
+            </div>
+            <div class="application-logo">CONFIDENT 1.0</div>
+    </div>
+    <div class="action-area">
+        <div id="report-info">
+            <select class="report-type">
+                <option value="Gapowicz">Gapowicz</option>
+                <option value="Picie w miejscu publicznym">Picie w miejscu publicznym</option>
+                <option value="Zle parkowanie">Zle parkowanie</option>
+                <option value="Dla Urzedu Skarbowego">Dla Urzędu Skarbowego</option>
+            </select> 
+            <input type="text" value="Opis zgłoszenia">
+        </div>
+        <div id="report-additional-info" hidden="true">
+            <label>Dodoj zdjęcie</label>
+            <input type="file">
+            <label>Wzkaż lokalizację</label>
+            <!--map mockup here-->
+        </div>
+    </div>
+    <div class="buttons-section">
+
+        <div class="buttons-inside-section">
+            <button class="confident-button" disabled="true" id="report-previous-button" onclick="reportPerviousButtonClicked()">Wstecz</button>
+            <button class="confident-button" id="report-next-button" onclick="reportNextButtonClicked()">Dalej</button>
+        </div>
+        <div class="buttons-inside-section">
+            <a class="confident-button-warn" href="./main-menu.html">Anuluj</a>
+            <a class="confident-button-accept" href="./main-menu.html">Zgłoś</a>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

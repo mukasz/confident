@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Confident 1.0</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/login.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header-section">
+        <div class="help-section">
+          <button class="help-button">?</button>
+        </div>
+        <div class="logo-container">
+          <span class="application-logo">CONFIDENT 1.0</span>
+        </div>
+    </div>
+    <div id="login-form">
+        <input class="confident-input" id="login" type="text" value="username">
+        <input class="confident-input" id="password" type="password" value="***">
+        <div class="login-buttons">
+          <button class="confident-accept-button" text="Zaloguj" onclick="login()">Zaloguj</button>
+          <a class="confident-button" href="./html/sing-up-page.html">Rejestracja</a>
+        </div>
+        <div id="wrong-pass" hidden=true>Złe hasło, spróbuj ponownie!</div>
+    </div>
+  </div>
+</body>
+</html>
