@@ -1,14 +1,47 @@
 .event-description {
-    height: 40%;
-    widows: 95%;
+    margin: 10px;
+    height: 300px;
+}
+.report-type {
+    margin: 10px;
 }
 
 .action-area {
     display: flex;
     flex-direction: column;
+    min-width: 80%;
+
 }
 
-.report-info {
+#report-info {
     display: flex;
     flex-direction: column;
+}
+
+.report-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons-section {
+    display: flex;
+    flex-direction: column;
+    min-width: 80%;
+}
+
+.buttons-inside-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-sizer {
+    width: 50%;
+    max-width: none;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
 }

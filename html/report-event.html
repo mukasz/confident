@@ -20,9 +20,9 @@
             <span class="application-logo">CONFIDENT 1.0</span>
         </div>
     </div>
-
+    <div class="form-container">
     <div class="action-area">
-        <div class="report-info">
+        <div id="report-info">
             <select class="report-type">
                 <option selected hidden>Typ zgloszenia</option>
                 <option value="Gapowicz">Gapowicz</option>
@@ -33,22 +33,23 @@
             <textarea class="event-description">Opis zgłoszenia</textarea>
         </div>
         <div id="report-additional-info" hidden="true">
-            <label>Dodoj zdjęcie</label>
+            <!-- <label>Dodoj zdjęcie</label>
             <input type="file">
             <label>Wzkaż lokalizację</label>
-            <!--map mockup here-->
+            map mockup here -->
         </div>
     </div>
     <div class="buttons-section">
 
         <div class="buttons-inside-section">
-            <button class="confident-button" disabled="true" id="report-previous-button" onclick="reportPerviousButtonClicked()">Wstecz</button>
-            <button class="confident-button" id="report-next-button" onclick="reportNextButtonClicked()">Dalej</button>
+            <button class="confident-button button-sizer" disabled="true" id="report-previous-button" onclick="reportPerviousButtonClicked()">Wstecz</button>
+            <button class="confident-button button-sizer" id="report-next-button" onclick="reportNextButtonClicked()">Dalej</button>
         </div>
         <div class="buttons-inside-section">
-            <a class="confident-decline-button" href="./main-menu.html">Anuluj</a>
-            <a class="confident-accept-button" href="./main-menu.html">Zgłoś</a>
+            <a class="confident-decline-button button-sizer" href="./main-menu.html">Anuluj</a>
+            <a class="confident-accept-button button-sizer" href="./main-menu.html">Zgłoś</a>
         </div>
+    </div>
     </div>
   </div>
 </body>

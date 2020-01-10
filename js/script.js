@@ -27,3 +27,4 @@ function reportPerviousButtonClicked() {
 function redirectToIndex() {
     window.location.href = "../index.html";
 }
+
