@@ -4,28 +4,33 @@
   <meta charset="utf-8">
   <title>Confident 1.0</title>
   <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/report-event.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="../js/script.js"></script>
 </head>
 
 <body>
   <div class="report-container">
-        <div class=header-section>
-            <div class="help-section">
-                <div id="point-couter">12</div>
-                <div class="help-button">?</div>
-            </div>
-            <div class="application-logo">CONFIDENT 1.0</div>
+    <div class="header-section">
+        <div class="help-section">
+            <button class="help-button">?</button>
+            <button class="confident-score">120 pkt</button>
+        </div>
+        <div class="logo-container">
+            <span class="application-logo">CONFIDENT 1.0</span>
+        </div>
     </div>
+
     <div class="action-area">
-        <div id="report-info">
+        <div class="report-info">
             <select class="report-type">
+                <option selected hidden>Typ zgloszenia</option>
                 <option value="Gapowicz">Gapowicz</option>
                 <option value="Picie w miejscu publicznym">Picie w miejscu publicznym</option>
                 <option value="Zle parkowanie">Zle parkowanie</option>
                 <option value="Dla Urzedu Skarbowego">Dla Urzędu Skarbowego</option>
             </select> 
-            <input type="text" value="Opis zgłoszenia">
+            <textarea class="event-description">Opis zgłoszenia</textarea>
         </div>
         <div id="report-additional-info" hidden="true">
             <label>Dodoj zdjęcie</label>
@@ -41,8 +46,8 @@
             <button class="confident-button" id="report-next-button" onclick="reportNextButtonClicked()">Dalej</button>
         </div>
         <div class="buttons-inside-section">
-            <a class="confident-button-warn" href="./main-menu.html">Anuluj</a>
-            <a class="confident-button-accept" href="./main-menu.html">Zgłoś</a>
+            <a class="confident-decline-button" href="./main-menu.html">Anuluj</a>
+            <a class="confident-accept-button" href="./main-menu.html">Zgłoś</a>
         </div>
     </div>
   </div>

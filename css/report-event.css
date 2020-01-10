@@ -1,0 +1,14 @@
+.event-description {
+    height: 40%;
+    widows: 95%;
+}
+
+.action-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.report-info {
+    display: flex;
+    flex-direction: column;
+}
