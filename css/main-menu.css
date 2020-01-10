@@ -1,0 +1,17 @@
+.main-menu-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
