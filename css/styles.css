@@ -118,9 +118,7 @@ body {
     -webkit-font-smoothing: antialiased;
     font-size: 115%;
     overflow: auto;
-    width: auto;
-    margin-left: 0px auto; 
-    margin-right: 0px auto;
+    width: auto;s
   }
   .flat-table th {
     background-color: #70c469;

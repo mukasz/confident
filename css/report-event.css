@@ -1,7 +1,17 @@
 .event-description {
+    display: flex;
     margin: 10px;
-    height: 300px;
+    height: 100px;
+    width: 60%;
+    border-radius: 25px;
+    width: 90%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
 }
+
 .report-type {
     margin: 10px;
 }
@@ -9,7 +19,7 @@
 .action-area {
     display: flex;
     flex-direction: column;
-    min-width: 80%;
+    min-width: 80%; 
 
 }
 
@@ -37,6 +47,8 @@
 .button-sizer {
     width: 50%;
     max-width: none;
+    align-items: center;
+  justify-content: center;
 }
 
 .form-container {

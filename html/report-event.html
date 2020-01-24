@@ -24,13 +24,20 @@
     <div class="action-area">
         <div id="report-info">
             <select class="report-type">
+                <label>Typ zgloszenia</label> 
                 <option selected hidden>Typ zgloszenia</option>
                 <option value="Gapowicz">Gapowicz</option>
                 <option value="Picie w miejscu publicznym">Picie w miejscu publicznym</option>
                 <option value="Zle parkowanie">Zle parkowanie</option>
                 <option value="Dla Urzedu Skarbowego">Dla Urzędu Skarbowego</option>
             </select> 
-            <textarea class="event-description">Opis zgłoszenia</textarea>
+            <label><font color="white">Opis zgłoszenia</font></label> 
+            <textarea class="event-description"></textarea>
+            <label><font color="white">Opis przestępcy</font></label> 
+            <textarea class="event-description"></textarea>
+            <<button class="confident-button button-sizer" id="report-next-button" onclick="reportNextButtonClicked()">Zrób zdjęcie</button>
+            <label><font color="white">Mapa</font></label>
+            <img src="../photos/mapa.JPG" alt="mapa">
         </div>
         <div id="report-additional-info" hidden="true">
             <!-- <label>Dodoj zdjęcie</label>
@@ -41,10 +48,10 @@
     </div>
     <div class="buttons-section">
 
-        <div class="buttons-inside-section">
+        <!-- <div class="buttons-inside-section">
             <button class="confident-button button-sizer" disabled="true" id="report-previous-button" onclick="reportPerviousButtonClicked()">Wstecz</button>
             <button class="confident-button button-sizer" id="report-next-button" onclick="reportNextButtonClicked()">Dalej</button>
-        </div>
+        </div> -->
         <div class="buttons-inside-section">
             <a class="confident-decline-button button-sizer" href="./main-menu.html">Anuluj</a>
             <a class="confident-accept-button button-sizer" href="./main-menu.html">Zgłoś</a>
